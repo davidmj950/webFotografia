@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@font-face{
+    src: url('../Fonts/DancingScript-Regular.otf');
+    font-family: DancingScript;
+}
+
+h1{
+}
+
+body{
+    background-color: #02010a;
+    font-family: DancingScript;
+}
+
+header{
+    background-color: #5b7989;
+    color: #fff;
+    text-shadow: 2px #02010a;
+    text-align: left;
+    border-radius: 10px 10px 0 0;
+    width: 96%;
+    display: inline-flex;
+    padding: 2%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    padding: 4%;
+    color: white;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+#ImageCenter{
+    clear: both;
+    background-color: #82c3a6;
+    width: 96%;
+    padding: 2%;
+}
+
+#ImageCenter img{
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+}
+
+#ImageSeconds{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+#ImageSeconds figure{
+    margin-top: 20px;
+    width: 30%;
+}
+
+#ImageSeconds figure img{
+    width: 100%;
+}
+
