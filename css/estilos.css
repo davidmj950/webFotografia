@@ -10,6 +10,7 @@
 }
 
 h1{
+    text-shadow: 2px 0  0 2px #02010a;
 }
 
 body{
@@ -17,10 +18,14 @@ body{
     font-family: DancingScript;
 }
 
+#container{
+    width: 900px;
+    margin: auto;
+}
+
 header{
     background-color: #5b7989;
     color: #fff;
-    text-shadow: 2px #02010a;
     text-align: left;
     border-radius: 10px 10px 0 0;
     width: 96%;
@@ -61,9 +66,10 @@ a{
 }
 
 #ImageSeconds{
-    width: 100%;
+    background-color: #d5c75f;
     display: inline-flex;
     justify-content: space-around;
+    border: 1px solid white;
 }
 
 #ImageSeconds figure{
@@ -75,3 +81,46 @@ a{
     width: 100%;
 }
 
+img{
+    box-shadow: 2px 2px 2px 2px #02010a;
+}
+
+#img1 img{
+    transition-property: Transform;
+    transition-duration: 1s;
+    
+}
+
+#img1 img:hover{
+    transform: rotate(10deg);
+    box-shadow: 2px 2px #82c3a6;
+}
+
+#img2 img{
+    transition-property: Transform;
+    transition-duration: 1s;
+}
+
+#img2 img:hover{
+    transform: translate(20px,-5px);
+    box-shadow: 2px 2px #82c3a6;
+}
+
+footer{
+    height: 150px;
+    background-color: #C6d5c5;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer div{
+    width: 25%;
+}
+
+#facebook, #Youtube, #Twitter {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
